@@ -23,7 +23,7 @@ body {
     width: 400px;
 }
 
-#calculator{
+#calculator-buttons{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
