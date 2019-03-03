@@ -2,35 +2,38 @@
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
         <title>calculator</title>
+        <link href="https://fonts.googleapis.com/css?family=Monoton|Roboto" rel="stylesheet">
     </head>
 
     <body>
+        <header id = "title">simpleCalc </header>
+            
         <section id = "container">
             
             <header id = "screen"></header>
             
             <section id = "calculator-buttons">
-                <button class = "action operator" data-action="clear"> AC </button>
-                <button class = "btn operator" data-action="add"> + </button>
-                <button class = "btn operator" data-action="substract"> - </button>
-                <button class = "btn operator" data-action="multiply"> x </button>
+                <button class = "btn-operator" id="clear"> AC </button>
+                <button class = "btn-operator" id="add"> + </button>
+                <button class = "btn-operator" id="substract"> - </button>
+                <button class = "btn-operator" id="multiply"> x </button>
                 
-                <button class = "btn number" data-action="7"> 7 </button>
-                <button class = "btn number" data-action="8"> 8 </button>
-                <button class = "btn number" data-action="9"> 9 </button>
-                <button class = "btn operator" data-action="divide"> ÷ </button> 
+                <button class = "btn-number" id="seven"> 7 </button>
+                <button class = "btn-number" id="eight"> 8 </button>
+                <button class = "btn-number" id="nine"> 9 </button>
+                <button class = "btn-operator" id="divide"> ÷ </button> 
                 
-                <button class = "btn number" data-action="4"> 4 </button>
-                <button class = "btn number" data-action="5"> 5 </button>
-                <button class = "btn number" data-action="6"> 6 </button>
-                <button class = "btn operator" data-action="."> . </button>
+                <button class = "btn-number" id="four"> 4 </button>
+                <button class = "btn-number" id="five"> 5 </button>
+                <button class = "btn-number" id="six"> 6 </button>
+                <button class = "btn-decimal" id="decimal"> . </button>
                 
-                <button class = "btn number" data-action="1"> 1 </button>
-                <button class = "btn number" data-action="2"> 2 </button>
-                <button class = "btn number" data-action="3"> 3 </button>
-                <button class = "action operator" id = "equals" data-action="calculate"> = </button>
+                <button class = "btn-number" id="one"> 1 </button>
+                <button class = "btn-number" id="two"> 2 </button>
+                <button class = "btn-number" id="three"> 3 </button>
+                <button class = "btn-operator" id = "equals"> = </button>
                 
-                <button class = "btn number" data-action="0"> 0 </button>
+                <button class = "btn-number" id="zero"> 0 </button>
                 
                 <button class = "template" > Enjoy </button>
                 <button class = "template" > the </button>
